@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "AnyAIGC AI 튜토리얼 센터",
+    "description": "AnyAIGC의 공식 튜토리얼 및 모범 사례. 300개 이상의 AI 모델을 OpenAI 호환 API로 통합."
+  },
+  "nav": {
+    "home": "홈",
+    "console": "콘솔",
+    "models": "모델 광장",
+    "apiDocs": "API 문서",
+    "tutorials": "AI 튜토리얼",
+    "login": "로그인"
+  },
+  "blog": {
+    "heroTitle": "AnyAIGC 튜토리얼",
+    "heroSubtitle": "하나의 API로 300개 이상의 AI 모델에 접근하세요. 전 세계 개발자와 함께 모범 사례를 탐색해 보세요.",
+    "readMore": "자세히 보기",
+    "backToList": "튜토리얼 목록으로",
+    "empty": "아직 게시된 문서가 없습니다. 곧 만나요.",
+    "cta": {
+      "title": "지금 AnyAIGC 사용해 보기",
+      "subtitle": "가입하면 $0.2 무료 크레딧 제공. 300개 이상의 모델, 평균 <100ms 응답 시간.",
+      "button": "anyaigc.com 방문"
+    }
+  },
+  "footer": {
+    "copyright": "모든 권리 보유.",
+    "poweredBy": "AnyAIGC 제공"
+  }
+}

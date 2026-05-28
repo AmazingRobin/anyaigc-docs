@@ -1,0 +1,40 @@
+@import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+:root {
+  --background: 245 247 251;
+  --foreground: 24 26 32;
+  --brand: 0 132 255;
+}
+
+html, body {
+  background-color: rgb(var(--background));
+  color: rgb(var(--foreground));
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+}
+
+body {
+  background-image:
+    radial-gradient(360px 280px at 8% 6%, rgba(125, 211, 252, 0.28) 0%, transparent 60%),
+    radial-gradient(380px 300px at 92% 8%, rgba(196, 181, 253, 0.28) 0%, transparent 60%),
+    radial-gradient(320px 260px at 28% 38%, rgba(147, 197, 253, 0.2) 0%, transparent 65%),
+    radial-gradient(300px 240px at 78% 48%, rgba(216, 180, 254, 0.18) 0%, transparent 65%),
+    radial-gradient(340px 280px at 6% 88%, rgba(167, 243, 208, 0.2) 0%, transparent 60%),
+    radial-gradient(360px 280px at 94% 92%, rgba(251, 207, 232, 0.26) 0%, transparent 60%);
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+.prose a {
+  color: #0084FF;
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: #46ACFF;
+}
+
+.prose h2 {
+  margin-top: 2em;
+}

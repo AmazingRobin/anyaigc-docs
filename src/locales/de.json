@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "AnyAIGC KI-Tutorials-Zentrum",
+    "description": "Offizielle Tutorials und Best Practices von AnyAIGC – ein einheitliches KI-API-Gateway mit 300+ Modellen und OpenAI-kompatiblen Endpunkten."
+  },
+  "nav": {
+    "home": "Startseite",
+    "console": "Konsole",
+    "models": "Modelle",
+    "apiDocs": "API-Dokumentation",
+    "tutorials": "KI-Tutorials",
+    "login": "Anmelden"
+  },
+  "blog": {
+    "heroTitle": "AnyAIGC Tutorials",
+    "heroSubtitle": "Zugriff auf 300+ KI-Modelle über eine einzige API. Best Practices mit Entwicklern weltweit entdecken.",
+    "readMore": "Weiterlesen",
+    "backToList": "Zurück zu den Tutorials",
+    "empty": "Noch keine Artikel vorhanden. Bleib dran.",
+    "cta": {
+      "title": "AnyAIGC jetzt ausprobieren",
+      "subtitle": "$0,2 Gratis-Guthaben bei Anmeldung. 300+ Modelle, durchschnittliche Antwortzeit <100ms.",
+      "button": "anyaigc.com besuchen"
+    }
+  },
+  "footer": {
+    "copyright": "Alle Rechte vorbehalten.",
+    "poweredBy": "Powered by AnyAIGC"
+  }
+}

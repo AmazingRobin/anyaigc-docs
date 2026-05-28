@@ -1,0 +1,43 @@
+name: Daily AnyAIGC Auto Blogger
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+jobs:
+  run-auto-blogger:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install Dependencies
+        run: npm ci
+
+      - name: Run Auto Blogger Script
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          NEXT_PUBLIC_SUPABASE_URL: ${{ secrets.NEXT_PUBLIC_SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+          CF_DEPLOY_HOOK: ${{ secrets.CF_DEPLOY_HOOK }}
+          DAILY_BLOG_LIMIT: '1'
+        run: node scripts/daily-blogger.mjs
+
+      - name: Commit and Push Updated Keywords
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add scripts/pending-keywords.json scripts/used-keywords.json
+          git commit -m "chore: update keywords after daily blog run" || echo "No keywords updated"
+          git pull --rebase origin main
+          git push

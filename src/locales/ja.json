@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "AnyAIGC AI チュートリアルセンター",
+    "description": "AnyAIGC の公式チュートリアルとベストプラクティス。300以上の AI モデルを OpenAI 互換 API で統合。"
+  },
+  "nav": {
+    "home": "ホーム",
+    "console": "コンソール",
+    "models": "モデル",
+    "apiDocs": "APIドキュメント",
+    "tutorials": "AI チュートリアル",
+    "login": "ログイン"
+  },
+  "blog": {
+    "heroTitle": "AnyAIGC チュートリアル",
+    "heroSubtitle": "1つの API で300以上の AI モデルにアクセス。世界中の開発者とベストプラクティスを探求しよう。",
+    "readMore": "続きを読む",
+    "backToList": "チュートリアル一覧へ",
+    "empty": "まだ記事はありません。お楽しみに。",
+    "cta": {
+      "title": "今すぐ AnyAIGC を試す",
+      "subtitle": "登録で $0.2 無料クレジット。300以上のモデル、平均 <100ms の応答速度。",
+      "button": "anyaigc.com にアクセス"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "poweredBy": "Powered by AnyAIGC"
+  }
+}

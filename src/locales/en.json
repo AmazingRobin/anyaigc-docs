@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "AnyAIGC AI Tutorials Center",
+    "description": "Official tutorials and best practices for AnyAIGC — a unified AI API gateway with 300+ models and OpenAI-compatible endpoints."
+  },
+  "nav": {
+    "home": "Home",
+    "console": "Console",
+    "models": "Models",
+    "apiDocs": "API Docs",
+    "tutorials": "AI Tutorials",
+    "login": "Login"
+  },
+  "blog": {
+    "heroTitle": "AnyAIGC Tutorials",
+    "heroSubtitle": "Access 300+ AI models through one API. Explore best practices with developers worldwide.",
+    "readMore": "Read more",
+    "backToList": "Back to tutorials",
+    "empty": "No articles yet. Stay tuned.",
+    "cta": {
+      "title": "Try AnyAIGC now",
+      "subtitle": "Get $0.2 free credit on signup. 300+ AI models at your fingertips with <100ms average latency.",
+      "button": "Visit anyaigc.com"
+    }
+  },
+  "footer": {
+    "copyright": "All rights reserved.",
+    "poweredBy": "Powered by AnyAIGC"
+  }
+}

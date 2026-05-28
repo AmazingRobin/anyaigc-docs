@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "title": "AnyAIGC Centro de tutoriales de IA",
+    "description": "Tutoriales oficiales y mejores prácticas de AnyAIGC: pasarela unificada de API de IA con más de 300 modelos compatibles con OpenAI."
+  },
+  "nav": {
+    "home": "Inicio",
+    "console": "Consola",
+    "models": "Modelos",
+    "apiDocs": "Documentación API",
+    "tutorials": "Tutoriales IA",
+    "login": "Acceder"
+  },
+  "blog": {
+    "heroTitle": "Tutoriales de AnyAIGC",
+    "heroSubtitle": "Accede a más de 300 modelos de IA a través de una sola API. Explora las mejores prácticas con desarrolladores de todo el mundo.",
+    "readMore": "Leer más",
+    "backToList": "Volver a los tutoriales",
+    "empty": "Aún no hay artículos. Vuelve pronto.",
+    "cta": {
+      "title": "Prueba AnyAIGC ahora",
+      "subtitle": "Obtén $0.2 de crédito gratis al registrarte. 300+ modelos al alcance, latencia media <100ms.",
+      "button": "Visitar anyaigc.com"
+    }
+  },
+  "footer": {
+    "copyright": "Todos los derechos reservados.",
+    "poweredBy": "Powered by AnyAIGC"
+  }
+}
