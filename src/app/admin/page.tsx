@@ -29,7 +29,7 @@ export default function AdminPage() {
   const [articles, setArticles] = useState<Article[]>([]);
   const [total, setTotal] = useState(0);
   const [page, setPage] = useState(1);
-  const [locale, setLocale] = useState('all');
+  const [locale, setLocale] = useState('zh');
   const [search, setSearch] = useState('');
   const [searchInput, setSearchInput] = useState('');
   const [loading, setLoading] = useState(false);
