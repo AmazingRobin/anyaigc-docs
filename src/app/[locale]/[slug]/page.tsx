@@ -116,7 +116,7 @@ export default async function DetailPage({
             {blog.cta?.title || '立即试用 AnyAIGC'}
           </h3>
           <p className="text-gray-600 mb-5">
-            {blog.cta?.subtitle || '注册即送 $0.2 免费额度,300+ AI 模型一键切换。'}
+            {blog.cta?.subtitle || '支持微信/支付宝/USDT支付,充值5折优惠,可自助开票,300+ AI 模型一键切换。'}
           </p>
           <a
             href="https://anyaigc.com/"
