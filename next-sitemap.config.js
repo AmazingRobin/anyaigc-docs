@@ -7,9 +7,15 @@ module.exports = {
   generateIndexSitemap: true,
   sitemapSize: 5000,
   trailingSlash: false,
-  exclude: ['*/_placeholder', '/admin*'],
+  exclude: ['/admin', '/admin/**', '/*/\_placeholder', '/_placeholder'],
+  robotsTxtOptions: {
+    policies: [
+      { userAgent: '*', allow: '/', disallow: ['/admin', '/admin/'] },
+    ],
+  },
   transform: async (config, path) => {
     if (path.includes('/_placeholder') || path.startsWith('/admin')) return null;
+
     let priority = 0.7;
     let changefreq = 'weekly';
 
@@ -21,6 +27,9 @@ module.exports = {
       if (segments.length === 1 && locales.includes(segments[0])) {
         priority = 0.9;
         changefreq = 'daily';
+      } else if (segments.length === 2 && locales.includes(segments[0])) {
+        priority = 0.8;
+        changefreq = 'weekly';
       }
     }
 
