@@ -9,6 +9,11 @@ export const metadata: Metadata = {
   icons: {
     icon: 'https://lsky.zhongzhuan.chat/i/2026/04/23/69e8f6ee60c5b.png',
   },
+  verification: {
+    other: {
+      'baidu-site-verification': 'codeva-wixaQ720Da',
+    },
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
